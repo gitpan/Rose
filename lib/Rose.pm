@@ -2,7 +2,7 @@ package Rose;
 
 use strict;
 
-our $VERSION = '0.012';
+our $VERSION = '0.013';
 
 sub version { $VERSION }
 
@@ -27,9 +27,8 @@ used to build web applications in the mod_perl environment.  Support for Apache
 1 and 2 is planned.
 
 The Rose suite is broken up into several components.  This module (Rose.pm)
-lists all the other Rose components as prerequisites in order to facilitate
-CPAN shell downloading of the entire suite.  It also carries the Rose suite
-version number.
+lists all the other Rose components as prerequisites.  In order to ensure that
+you have the latest versions of all the Rose modules, install C<Bundle::Rose>.
 
 =head1 CLASS METHODS
 
@@ -37,7 +36,10 @@ version number.
 
 =item B<version>
 
-Returns the version number of the Rose suite.
+Returns the version number of the Rose suite.  This version number will not be
+meaningful until I decide on a policy for suite versioning.  Until then,
+ignore it and simply download the latest version of each C<Rose::*> component.
+The easiest way to do this is to install C<Bundle::Rose>.
 
 =back
 
@@ -114,7 +116,7 @@ Similarly, if a function or method is in a public module but is I<not>
 documented in the POD for that module, don't just assume that I forgot to add
 it.  Undocumented methods are undocumented for a reason, and are subject to
 change or removal at any time, in any version.  If you feel like you need to
-use the method, email me and I'll consider making it part of thee public API.
+use the method, email me and I'll consider making it part of the public API.
 
 =back
 
