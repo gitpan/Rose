@@ -2,7 +2,7 @@ package Rose;
 
 use strict;
 
-our $VERSION = '0.01';
+our $VERSION = '0.011';
 
 sub version { $VERSION }
 
@@ -102,7 +102,7 @@ Here are the ground rules for the Rose suite:
 =over 4
 
 =item * B<All APIs are subject to change until version 1.0.>  I will try to
-avoid breaking things unnecessarily befor ethen, but I make no promises.
+avoid breaking things unnecessarily before then, but I make no promises.
 
 =item * B<If it is not documented, it doesn't exist.>  The Rose suite is
 filled with classes that exist solely to factor out common functionality in
