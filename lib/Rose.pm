@@ -2,7 +2,7 @@ package Rose;
 
 use strict;
 
-our $VERSION = '0.014';
+our $VERSION = '0.02';
 
 sub version { $VERSION }
 
@@ -49,44 +49,40 @@ Rose is made up of the following components:
 
 =over 4
 
-=item B<Rose::Object>
+=item L<Rose::Object>
 
 A simple object base class and method maker.
 
-=item B<Rose::URI>
+=item L<Rose::URI>
 
 A URI object built for easy and efficient manipulation.
 
-=item B<Rose::DateTime>
+=item L<Rose::DateTime>
 
 Central location for all Rose-related C<DateTime> utility functions and
 wrapper objects.
 
-=item B<Rose::HTML::Objects>
+=item L<Rose::HTML::Objects>
 
 Object representations of HTML tags, particularly HTML forms and fields.
 
-=item B<Rose::DB>
+=item L<Rose::DB>
 
-DBI abstraction layer. (Unreleased)
+DBI abstraction layer.
 
-=item B<Rose::DB::Object>
+=item L<Rose::DB::Object>
 
-Base class for database-backed objects.  (Unreleased)
+Create and manipulate object representations of database rows.
 
-=item B<Rose::SQL>
-
-SQL manipulation and generation library.  (Unreleased)
-
-=item B<Rose::Conf>
+=item L<Rose::Conf>
 
 Perl module configuration system.
 
-=item B<Rose::BuildConf>
+=item L<Rose::BuildConf>
 
 Simple Perl build system for web applications.  (Unreleased)
 
-=item B<Rose::WebApp>
+=item L<Rose::WebApp>
 
 Web application framework.  (Unreleased)
 
@@ -122,7 +118,7 @@ use the method, email me and I'll consider making it part of the public API.
 
 =head1 BUGS
 
-I'm sure this suite is rife with bugs.  It's only version 0.011, after all. In
+I'm sure this suite is rife with bugs.  It's only version 0.0N, after all. In
 particular, I'd appreciate it if people would email me with documentation
 corrections.  I'm an awful typist...
 
