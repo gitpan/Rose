@@ -9,3 +9,11 @@
 0.012 (11.14.2004) - John Siracusa <siracusa@mindspring.com>
 
     * Added copyright info.  Versions 0.01 and 0.011 removed.
+
+0.013 (11.15.2004) - John Siracusa <siracusa@mindspring.com>
+
+    * Updated versining policy.
+
+0.014 (11.16.2004) - John Siracusa <siracusa@mindspring.com>
+
+    * Updated for release of Rose::Conf.

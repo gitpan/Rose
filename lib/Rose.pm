@@ -2,7 +2,7 @@ package Rose;
 
 use strict;
 
-our $VERSION = '0.013';
+our $VERSION = '0.014';
 
 sub version { $VERSION }
 
@@ -80,7 +80,7 @@ SQL manipulation and generation library.  (Unreleased)
 
 =item B<Rose::Conf>
 
-Perl module configuration system.  (Unreleased)
+Perl module configuration system.
 
 =item B<Rose::BuildConf>
 
