@@ -2,7 +2,7 @@ package Rose;
 
 use strict;
 
-our $VERSION = '0.011';
+our $VERSION = '0.012';
 
 sub version { $VERSION }
 
@@ -120,10 +120,16 @@ use the method, email me and I'll consider making it part of thee public API.
 
 =head1 BUGS
 
-I'm sure this suite is rife with bugs.  It's only version 0.01, after all. In
+I'm sure this suite is rife with bugs.  It's only version 0.011, after all. In
 particular, I'd appreciate it if people would email me with documentation
 corrections.  I'm an awful typist...
 
 =head1 AUTHOR
 
 John C. Siracusa (siracusa@mindspring.com)
+
+=head1 COPYRIGHT
+
+Copyright (c) 2004 by John C. Siracusa.  All rights reserved.  This program is
+free software; you can redistribute it and/or modify it under the same terms
+as Perl itself.
