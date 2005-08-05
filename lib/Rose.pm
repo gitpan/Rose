@@ -2,7 +2,7 @@ package Rose;
 
 use strict;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 sub version { $VERSION }
 
@@ -27,8 +27,9 @@ used to build web applications in the mod_perl environment.  Support for Apache
 1 and 2 is planned.
 
 The Rose suite is broken up into several components.  This module (Rose.pm)
-lists all the other Rose components as prerequisites.  In order to ensure that
-you have the latest versions of all the Rose modules, install C<Bundle::Rose>.
+lists all the other Rose components as prerequisites, including their minimum 
+version numbers.  L<Bundle::Rose> is another way to install the entire
+suite.
 
 =head1 CLASS METHODS
 
@@ -39,7 +40,7 @@ you have the latest versions of all the Rose modules, install C<Bundle::Rose>.
 Returns the version number of the Rose suite.  This version number will not be
 meaningful until I decide on a policy for suite versioning.  Until then,
 ignore it and simply download the latest version of each C<Rose::*> component.
-The easiest way to do this is to install C<Bundle::Rose>.
+The easiest way to do this is to install L<Bundle::Rose>.
 
 =back
 
@@ -59,7 +60,7 @@ A URI object built for easy and efficient manipulation.
 
 =item L<Rose::DateTime>
 
-Central location for all Rose-related C<DateTime> utility functions and
+Central location for all Rose-related L<DateTime> utility functions and
 wrapper objects.
 
 =item L<Rose::HTML::Objects>
@@ -89,7 +90,7 @@ Web application framework.  (Unreleased)
 =back
 
 As you can see, a lot of these components have not yet been released. I've
-decided to release what I have so far because I think C<Rose::HTML::Objects>
+decided to release what I have so far because I think L<Rose::HTML::Objects>
 may be useful immediately, even without any of the unreleased web application
 code.
 
@@ -128,6 +129,6 @@ John C. Siracusa (siracusa@mindspring.com)
 
 =head1 COPYRIGHT
 
-Copyright (c) 2004 by John C. Siracusa.  All rights reserved.  This program is
+Copyright (c) 2005 by John C. Siracusa.  All rights reserved.  This program is
 free software; you can redistribute it and/or modify it under the same terms
 as Perl itself.

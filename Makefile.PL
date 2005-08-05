@@ -8,8 +8,10 @@ WriteMakefile(NAME         => 'Rose',
               PREREQ_PM =>
               {
                 'Test::More'          => 0,
-                'Rose::Object'        => 0,
-                'Rose::DateTime'      => 0,
-                'Rose::URI'           => 0,
-                'Rose::HTML::Objects' => 0,
+                'Rose::Object'        => '0.013',
+                'Rose::DB'            => '0.02',
+                'Rose::DB::Object'    => '0.06',
+                'Rose::DateTime'      => '0.0131',
+                'Rose::URI'           => '0.012',
+                'Rose::HTML::Objects' => '0.021',
               });
