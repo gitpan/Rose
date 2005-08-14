@@ -2,7 +2,7 @@ package Rose;
 
 use strict;
 
-our $VERSION = '0.03';
+our $VERSION = '0.031';
 
 sub version { $VERSION }
 
